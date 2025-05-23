@@ -1,0 +1,79 @@
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header .logo {
+  width: 180px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+section {
+  background-color: white;
+  margin: 1rem 0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  color: #0077cc;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "➤ ";
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.boton-whatsapp {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.boton-whatsapp:hover {
+  background-color: #1ebe5c;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #e9ecef;
+  font-size: 0.9rem;
+}
